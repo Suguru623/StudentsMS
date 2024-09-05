@@ -1,0 +1,335 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = StudentsMS
+build_property.RootNamespace = StudentsMS
+build_property.ProjectDir = D:\StudentsMS\StudentsMS\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\StudentsMS\StudentsMS
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/StudentsMS/StudentsMS/Views/Courses/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/Courses/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/Courses/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/Courses/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/Courses/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/Curriculum/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VycmljdWx1bVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/Curriculum/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VycmljdWx1bVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/Curriculum/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VycmljdWx1bVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/Curriculum/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VycmljdWx1bVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/Curriculum/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VycmljdWx1bVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/Departments/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/Departments/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/Departments/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/Departments/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/Departments/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/LeaveDetails/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhdmVEZXRhaWxzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/LeaveDetails/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhdmVEZXRhaWxzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/LeaveDetails/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhdmVEZXRhaWxzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/LeaveDetails/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhdmVEZXRhaWxzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/LeaveDetails/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhdmVEZXRhaWxzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/Leaves/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhdmVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/Leaves/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhdmVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/Leaves/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhdmVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/Leaves/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhdmVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/Leaves/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhdmVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/Login/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/Login/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/Login/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/NormalCurriculum/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm9ybWFsQ3VycmljdWx1bVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/NormalCurriculum/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm9ybWFsQ3VycmljdWx1bVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/NormalCurriculum/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm9ybWFsQ3VycmljdWx1bVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/NormalCurriculum/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm9ybWFsQ3VycmljdWx1bVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/NormalCurriculum/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm9ybWFsQ3VycmljdWx1bVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/NormalLeaveDetails/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm9ybWFsTGVhdmVEZXRhaWxzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/NormalLeaveDetails/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm9ybWFsTGVhdmVEZXRhaWxzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/NormalLeaveDetails/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm9ybWFsTGVhdmVEZXRhaWxzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/NormalLeaveDetails/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm9ybWFsTGVhdmVEZXRhaWxzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/NormalLeaveDetails/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm9ybWFsTGVhdmVEZXRhaWxzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/NormalRollCalls/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm9ybWFsUm9sbENhbGxzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/NormalRollCalls/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm9ybWFsUm9sbENhbGxzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/NormalRollCalls/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm9ybWFsUm9sbENhbGxzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/NormalRollCalls/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm9ybWFsUm9sbENhbGxzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/NormalRollCalls/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm9ybWFsUm9sbENhbGxzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/NormalSelectCourses/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm9ybWFsU2VsZWN0Q291cnNlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/NormalSelectCourses/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm9ybWFsU2VsZWN0Q291cnNlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/NormalSelectCourses/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm9ybWFsU2VsZWN0Q291cnNlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/NormalSelectCourses/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm9ybWFsU2VsZWN0Q291cnNlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/NormalSelectCourses/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm9ybWFsU2VsZWN0Q291cnNlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/NormalStudents/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm9ybWFsU3R1ZGVudHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/NormalStudents/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm9ybWFsU3R1ZGVudHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/NormalStudents/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm9ybWFsU3R1ZGVudHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/NormalStudents/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm9ybWFsU3R1ZGVudHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/NormalStudents/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm9ybWFsU3R1ZGVudHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/RollCalls/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sbENhbGxzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/RollCalls/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sbENhbGxzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/RollCalls/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sbENhbGxzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/RollCalls/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sbENhbGxzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/RollCalls/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sbENhbGxzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/SelectCourses/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VsZWN0Q291cnNlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/SelectCourses/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VsZWN0Q291cnNlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/SelectCourses/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VsZWN0Q291cnNlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/SelectCourses/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VsZWN0Q291cnNlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/SelectCourses/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VsZWN0Q291cnNlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/Students/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/Students/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/Students/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/Students/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/Students/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StudentsMS/StudentsMS/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-rw99qeng29
+
+[D:/StudentsMS/StudentsMS/Views/Shared/_Layout2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-sos9ekwevj
+
+[D:/StudentsMS/StudentsMS/Views/Shared/_LayoutNS.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXROUy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-h97xvbp6g8
