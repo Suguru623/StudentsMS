@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
+using NuGet.DependencyResolver;
 using StudentsMS.Models;
 using StudentsMS.ViewModels;
 
@@ -65,11 +66,17 @@ namespace StudentsMS.Controllers
         public IActionResult Create()
         {
             string aa = HttpContext.Session.GetString("Account");
+
+            var result = _context.SelectCourse.Where(m => m.StuID == aa).Include(m=>m.Course);
+       
             //ViewData["RCID"] = new SelectList(_context.RollCall, "RCID", "RCID");
-            ViewData["CTID"] = new SelectList(_context.ClassTime, "CTID", "CTID");
-            ViewData["CourseID"] = new SelectList(_context.Course, "CourseID", "CName");
-            ViewData["DeptID"] = new SelectList(_context.Department, "DeptID", "DName");
-            ViewData["StuID"] = new SelectList(_context.Student.Where(r => r.StuID == aa), "StuID", "StuID");
+            //ViewData["CTID"] = new SelectList(_context.ClassTime, "CTID", "CTID");
+            //ViewData["CourseID"] = new SelectList(_context.Course, "CourseID", "CName");
+            //ViewData["DeptID"] = new SelectList(_context.Department, "DeptID", "DName");
+           
+            ViewData["StuID"] = aa;
+            ViewData["Result"] = result; 
+
             return View();
         }
 
@@ -79,10 +86,25 @@ namespace StudentsMS.Controllers
        
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("RCID,StuID,CourseID,DeptID,CTID,RCDate,ArrivalTime")] RollCall rollCall)
+        public async Task<IActionResult> Create([Bind("RCID,StuID,CourseID,DeptID,CTID,RCDate,ArrivalTime")] string StuID, string CourseID)
         {
             //string aa = HttpContext.Session.GetString("Account");
-            var studentName = string.Empty;
+          
+
+            var StuSelect = await _context.SelectCourse.Where(m => m.StuID == StuID && m.CourseID == CourseID).FirstOrDefaultAsync();
+
+
+            var rollCall = new RollCall
+            {
+                RCID = "",
+                StuID = StuSelect.StuID,
+                DeptID=StuSelect.DeptID,
+                CourseID= StuSelect.CourseID,
+                CTID= StuSelect.CTID,
+                RCDate= DateTime.Now,
+                ArrivalTime= DateTime.Now
+            };
+
 
             using (var command = _context.Database.GetDbConnection().CreateCommand()) //建立了一個資料庫連線，並創建一個用來執行 SQL 指令的物件。
             {
@@ -103,8 +125,8 @@ namespace StudentsMS.Controllers
             ModelState.Remove(nameof(rollCall.RCID));
             //rollCall.RCID = result.Value;
 
-            rollCall.RCDate = DateTime.Now;
-            rollCall.ArrivalTime = DateTime.Now;
+            //rollCall.RCDate = DateTime.Now;
+            //rollCall.ArrivalTime = DateTime.Now;
             //ModelState.Remove(rollCall.RCID);
             
 

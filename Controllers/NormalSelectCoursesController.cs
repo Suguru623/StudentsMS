@@ -73,20 +73,30 @@ namespace StudentsMS.Controllers
         {
             string aa = HttpContext.Session.GetString("Account");
 
-            var selectCourse = _context.SelectCourse
-               .Include(s => s.CT)
-               .Include(s => s.Course)
-               .Include(s => s.Dept)
-               .Include(s => s.Stu)
-               .FirstOrDefault(m => m.StuID == aa);
 
-            ViewData["CTID"] = new SelectList(_context.ClassTime, "CTID", "CTID");
-            ViewData["CourseID"] = new SelectList(_context.Course, "CourseID", "CName");
-            ViewData["DeptID"] = new SelectList(_context.Department, "DeptID", "DName");
+
+            var stu = _context.Student.Find(aa);
+
+            var selectCourse = _context.Curriculum.Where(m=>m.DeptID==stu.DeptID).Include(m => m.Course);
+
+
+            //ViewData["StuID"] = aa;
+            //ViewData["Result"] = result;
+            //var selectCourse = _context.SelectCourse
+            //   .Include(s => s.CT)
+            //   .Include(s => s.Course)
+            //   .Include(s => s.Dept)
+            //   .Include(s => s.Stu)
+            //   .FirstOrDefault(m => m.StuID == aa);
+
+            //ViewData["CTID"] = new SelectList(_context.ClassTime, "CTID", "CTID");
+            //ViewData["CourseID"] = new SelectList(_context.Course, "CourseID", "CName");
+            //ViewData["DeptID"] = new SelectList(_context.Department, "DeptID", "DName");
             //ViewData["StuID"] = new SelectList(_context.Student, "StuID", "StuID");
-            ViewData["StuID"] = new SelectList(_context.Student.Where(s => s.StuID == selectCourse.StuID),"StuID","StuID");
+            ViewData["StuID"] = aa;
+            ViewData["selectCourse"] = selectCourse;
 
-          
+
             return View();
 
         }
@@ -96,8 +106,26 @@ namespace StudentsMS.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("StuID,CourseID,DeptID,CTID")] SelectCourse selectCourse)
+        public async Task<IActionResult> Create([Bind("StuID,CourseID,DeptID,CTID")] string StuID,string CourseID )//SelectCourse selectCourse
         {
+            string aa = HttpContext.Session.GetString("Account");
+            
+            var stu = _context.Student.Find(aa);
+
+            
+            var StuSelect = await _context.Curriculum.Where(m=> m.CourseID == CourseID).FirstOrDefaultAsync();
+
+
+            var selectCourse = new SelectCourse
+            {
+                
+                StuID = stu.StuID,
+                DeptID = stu.DeptID,
+                CourseID = StuSelect.CourseID,
+                CTID = StuSelect.CTID,
+                
+            };
+
             if (ModelState.IsValid)
             {
                 _context.Add(selectCourse);
