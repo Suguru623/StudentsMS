@@ -56,9 +56,10 @@ namespace StudentsMS.Controllers
         }
 
         // GET: Students/Create
-        public IActionResult Create()
+        public IActionResult Create(string deptID = "D01")
         {
             ViewData["DeptID"] = new SelectList(_context.Department, "DeptID", "DName");
+            ViewData["DepartmentID"] = deptID;
             return View();
         }
 
@@ -73,20 +74,20 @@ namespace StudentsMS.Controllers
             {
                 _context.Add(student);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction("Index", new { deptID=student.DeptID});
             }
             ViewData["DeptID"] = new SelectList(_context.Department, "DeptID", "DName", student.DeptID);
             return View(student);
         }
 
         // GET: Students/Edit/5
-        public async Task<IActionResult> Edit(string id)
+        public async Task<IActionResult> Edit(string id, string deptID = "D01")
         {
             if (id == null)
             {
                 return NotFound();
             }
-
+            ViewData["DepartmentID"] = deptID;
             var student = await _context.Student.FindAsync(id);
             if (student == null)
             {
@@ -126,7 +127,7 @@ namespace StudentsMS.Controllers
                         throw;
                     }
                 }
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction("Index", new { deptID = student.DeptID });
             }
             ViewData["DeptID"] = new SelectList(_context.Department, "DeptID", "DName", student.DeptID);
             return View(student);
@@ -163,7 +164,7 @@ namespace StudentsMS.Controllers
             }
 
             await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction(nameof(Index), new { deptID=student.DeptID});
         }
 
         private bool StudentExists(string id)

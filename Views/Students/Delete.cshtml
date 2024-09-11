@@ -46,6 +46,6 @@
     <form asp-action="Delete">
         <input type="hidden" asp-for="StuID" />
         <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-action="Index">返回學生資料</a>
+        <a asp-action="Index" asp-route-deptID="@ViewData["DepartmentID"]">返回學生資料</a>
     </form>
 </div>
